@@ -14,7 +14,7 @@ repository-path: wikidata
 # specifies the path of the repository directory.  If it does not
 # exist, gitit will create it on startup.
 
-require-authentication: modify
+require-authentication: none
 # if 'none', login is never required, and pages can be edited anonymously.
 # if 'modify', login is required to modify the wiki (edit, add, delete
 # pages, upload files).
@@ -136,14 +136,14 @@ use-cache: no
 cache-dir: cache
 # directory where rendered pages will be cached
 
-max-upload-size: 100K
+max-upload-size: 100M
 # specifies an upper limit on the size (in bytes) of files uploaded
 # through the wiki's web interface.
 # To disable uploads, set this to 0K.
 # This will result in the uploads link disappearing 
 # and the _upload url becoming inactive.
 
-max-page-size: 100K
+max-page-size: 100M
 # specifies an upper limit on the size (in bytes) of pages
 
 debug-mode: no
