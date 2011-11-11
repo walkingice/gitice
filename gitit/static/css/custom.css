@@ -37,3 +37,14 @@ pre code {
     background-color: #f1f0ed;
 }
 
+th, td,tr {
+    border: 1px solid #ccc;
+}
+
+th {
+    background: #e0e0e0;
+}
+
+tr.odd {
+    background: #f5f5f5;
+}
