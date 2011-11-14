@@ -43,7 +43,7 @@ user-file: gitit-users
 session-timeout: 60
 # number of minutes of inactivity before a session expires.
 
-static-dir: static
+static-dir: wikidata/gitit/static
 # specifies the path of the static directory (containing javascript,
 # css, and images).  If it does not exist, gitit will create it
 # and populate it with required scripts, stylesheets, and images.
@@ -77,7 +77,7 @@ show-lhs-bird-tracks: no
 # specifies whether to show Haskell code blocks in "bird style",
 # with "> " at the beginning of each line.
 
-templates-dir: templates
+templates-dir: wikidata/gitit/templates
 # specifies the path of the directory containing page templates.
 # If it does not exist, gitit will create it with default templates.
 # Users may wish to edit the templates to customize the appearance of
