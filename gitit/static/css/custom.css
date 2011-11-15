@@ -15,8 +15,7 @@ body {
     width:1024px;
 }
 
-pre{
-    font-size: 12px;
+pre {
     font-family: monospace;
     overflow-Y: hidden;  /*--Hides vertical scroll created by IE--*/
     overflow: auto;      /*--If the Code exceeds the width, a scrolling is available--*/
@@ -32,6 +31,7 @@ pre{
 
 pre code {
     margin: 0 0 0 20px;  /*--Left Margin--*/
+    line-height:20px;
     padding: 14px 0;
     display: block;
     background-color: #f1f0ed;
