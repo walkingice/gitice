@@ -119,7 +119,10 @@ table-of-contents: yes
 # specifies whether to print a tables of contents (with links to
 # sections) on each wiki page.
 
-plugins:
+plugins: wikidata/gitit/plugins/Dot.hs
+# Do not forget to install package libghc-gitit-dev for
+# module Network.Gitit.Interface
+#
 # specifies a list of plugins to load.  Plugins may be specified
 # either by their path or by their module name.  If the plugin name
 # starts with Gitit.Plugin., gitit will assume that the plugin is

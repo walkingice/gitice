@@ -1,0 +1,4 @@
+gitit/plugins/*.hi
+gitit/plugins/*.o
+gitit/static/dot/*.png
+
