@@ -29,12 +29,22 @@ pre {
     width:96%;
 }
 
-pre code {
+code {
+    color: #F00;
+    margin: 2px 4px;
+    padding: 2px 4px;
+    background-color: #f7f7f9;
+    border: 1px solid #e1e1e8;
+}
+
+pre > code {
     margin: 0 0 0 20px;  /*--Left Margin--*/
+    color: #000;
     line-height:20px;
     padding: 14px 0;
     display: block;
     background-color: #f1f0ed;
+    border: 0px;
 }
 
 th, td,tr {
